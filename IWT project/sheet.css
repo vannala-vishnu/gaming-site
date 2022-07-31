@@ -1,0 +1,47 @@
+body{
+    background-color: #fdd835;
+}
+h1{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+.button{
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    top: 30px;
+    left: 300px;
+    position: relative;
+    border-radius: 5px;
+    transition-duration: .4s;
+    border: 3px solid #555;
+    background: url(https://image.shutterstock.com/image-vector/metallic-red-balls-falling-design-600w-303379649.jpg);
+    background-size: cover;
+}
+
+.button1{
+    box-shadow:0 30px 60px rgba(0,0,0,.5) ;
+}
+
+
+.button1:hover{
+    box-shadow:0 10px 20px rgba(0,0,0,.5) ;
+    transform: scale(.95) ;
+}
+
+
+.button2{
+    box-shadow:0 30px 60px rgba(0,0,0,.5) ;
+}
+
+
+.button2:hover{
+    box-shadow:0 10px 20px rgba(0,0,0,.5) ;
+    transform: scale(.95) ;
+
+}
+
